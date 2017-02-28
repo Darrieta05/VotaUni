@@ -1,0 +1,80 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  align-content: center;
+  text-align: center;
+  min-height: 100%;
+  color:grey;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+img {
+  max-width: 500px;
+  height: auto;
+}
+
+.link-ulacit {
+  padding-left: 5%;
+  padding-top: 1%;
+  float: left;
+  color: white;
+}
+
+.link-titulo {
+  padding-top: 1%;
+  padding-right: 5%;
+  color: white;
+  float: right;
+}
+
+.topbar {
+  height: 50px;
+  background-color: purple;
+}
+
+.footer {
+  position: relative;
+  margin-top: 100px;
+  padding-bottom: 0px;
+  height: 60px;
+  background-color: purple;
+  text-align: left;
+  align-items: center;
+}
+
+.titulo {
+  color: black;
+  text-shadow: 1px 1px 5px gray;
+}
+
+.button {
+  display: flex;
+  text-align-last: center;
+  box-shadow: 2px 2px 10px black;
+  margin: 1rem;
+  height: 11rem;
+  width: auto;
+  background-color: purple;
+  color: white;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 3vw;
+  border-radius: 25px;
+  text-align: center;
+  align-items: center;
+  justify-content : center;
+  text-shadow: 1px 1px 5px rgb(21, 5, 24);
+}
+
+.button-form {
+
+}
+
+
+.
