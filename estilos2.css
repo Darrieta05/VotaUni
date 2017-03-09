@@ -79,7 +79,7 @@
     border-radius: 25px;
     padding: 20px;
     margin: auto;
-    width: 170px;
+    
 }
 
 .cent{
@@ -105,6 +105,21 @@ input {
     margin-bottom: 6px;
 }
 
+.cuadro input{
+    color: black;
+    height: 30px;
+    width: 90%;
+    margin-left: 10px;
+    margin-bottom: 6px;
+}
+
+#divEscuela label, .cuadro label{
+    font-size: 25px;
+    align-content: center;
+    text-align: center;
+    font-weight: bolder;
+}
+
 .t1 tbody tr td label{
     font-size: 25px;
     align-content: center;
@@ -127,5 +142,9 @@ input::-webkit-input-placeholder {
 input::-webkit-input-value {
     font-size: 30px;
     line-height: 3;
+}
+
+aaa{
+    display: left;
 }
 

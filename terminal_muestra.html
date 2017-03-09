@@ -20,8 +20,7 @@
                 <tbody>
                     <tr>
                         <td class="lbl">
-                            <label for="nobre">
-                                Nombre</label>
+                            <label for="nobre">Nombre</label>
                         </td>
                         <td>
                             <input name="nombre" type="text" />
@@ -32,53 +31,42 @@
         </div>
     </div>
 <!--------------------------------------------------------------------------------------->
+    <!-- Hay que modificar el action-->
     <form action="#" method="post">
         <div class="contenedor">
             <div class="row">
-            <table class="t1">
-                    <tbody>
-                        <tr>
-                            <td class="lbl">
-                                <label>Escuela</label>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="cuadro" >
-                                    <label>Nombre</label>
-                                    <input type="radio" name="voto" value="1"/>
-                                </div>
-                            </td>
-                            
-                            <td>
-                                <div class="cuadro">
-                                    <label>Nombre</label>
-                                    <input type="radio" name="voto" value="1"/>
-                                </div>
-                            </td>
-                            
-                            <td>
-                                <div class="cuadro">
-                                    <label>Nombre</label>
-                                    <input type="radio" name="voto" value="1"/>
-                                </div>
-                            </td>
-                            
-                            
-                            
-                        </tr>
-                    </tbody>
-                </table>
+                
+                <div id="divEscuela">
+                    <label>Escuela</label>
+                    <!--este label se tiene que cambiar por el nombre de la escuela-->
+                </div>
+                
+                <!--Este div se multiplia dependiendo de cuantos partidos hayan-->
+                <div class="cuadro col-md-6" >
+                    <label>Nombressssssssssssssssssssssssssssssssss</label>
+                    <br/>
+                    <img src="imgs/f1.jpg" width="300px" height="300px"/>
+                    <input type="radio" name="voto" value="1"/>
+                </div>
+                
+                <div class="cuadro col-md-6" >
+                    <label>Nombre</label>
+                    <br/>
+                    <img src="imgs/f1.jpg" width="300px" height="300px"/>
+                    <input type="radio" name="voto" value="1"/>
+                </div>
+                
+                
             </div>
         </div>
 
         <div class="row">
             <div>
                     <input type="submit" value="Enviar" class="fiscal_boton" />
+                <!--No se si se tendra que hacer cambios en el submit-->
             </div>
         </div>
     </form>
-    <!--------------------------------------------------------------------------------------->
     <!--------------------------------------------------------------------------------------->
     <div class="footer">
         <a class="link-ulacit" href="http://www.ulacit.ac.cr">Universidad Latinoamericana de
