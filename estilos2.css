@@ -118,6 +118,8 @@ input {
     align-content: center;
     text-align: center;
     font-weight: bolder;
+    width: 400px;
+    word-break: keep-all;
 }
 
 .t1 tbody tr td label{
