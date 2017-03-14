@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+html {
+  height: 100%;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  align-content: center;
+  text-align: center;
+  min-height: 100%;
+  color:grey;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+img {
+  max-width: 500px;
+  height: auto;
+}
+
+.link-ulacit {
+  padding-left: 5%;
+  padding-top: 1%;
+  float: left;
+  color: white;
+}
+
+.link-titulo {
+  padding-top: 1%;
+  padding-right: 5%;
+  color: white;
+  float: right;
+}
+
+.topbar {
+  height: 50px;
+  background-color: purple;
+}
+
+.footer {
+  position: relative;
+  margin-top: 100px;
+  padding-bottom: 0px;
+  height: 60px;
+  background-color: purple;
+  text-align: left;
+  align-items: center;
+}

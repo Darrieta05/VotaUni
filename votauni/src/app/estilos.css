@@ -1,0 +1,203 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  align-content: center;
+  text-align: center;
+  min-height: 100%;
+  color:grey;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+img {
+  max-width: 500px;
+  height: auto;
+}
+
+.link-ulacit {
+  padding-left: 5%;
+  padding-top: 1%;
+  float: left;
+  color: white;
+}
+
+.link-titulo {
+  padding-top: 1%;
+  padding-right: 5%;
+  color: white;
+  float: right;
+}
+
+.titulo {
+  color: black;
+  text-shadow: 1px 1px 5px gray;
+}
+
+.button {
+  display: flex;
+  text-align-last: center;
+  box-shadow: 2px 2px 10px black;
+  margin: 1rem;
+  height: 11rem;
+  width: auto;
+  background-color: purple;
+  color: white;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 3vw;
+  border-radius: 25px;
+  text-align: center;
+  align-items: center;
+  justify-content : center;
+  text-shadow: 1px 1px 5px rgb(21, 5, 24);
+}
+
+.busca_boton {
+  background-color: purple;
+  border-radius: 25px;
+  box-shadow: 2px 2px 10px black;
+  color: white;
+  padding: 20px;
+  margin: 2rem;
+}
+
+.fiscal_boton {
+    background-color: green;
+    border-radius: 25px;
+    box-shadow: 2px 2px 10px black;
+    color: white;
+    padding: 20px;
+    margin-right: auto;
+    margin-left:auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.busca_cedula {
+  background-color: purple;
+  border-radius: 25px;
+  box-shadow: 2px 2px 10px black;
+  color: black;
+  padding: 20px;
+  margin: 2rem;
+}
+
+.contenedor {
+  text-align: left;
+  background-color: purple;
+  border-radius: 25px;
+  box-shadow: 2px 2px 10px black;
+  color: white;
+  padding: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.input:text {
+  color:black;
+}
+
+
+.link_home {
+  float: left;
+  color: white;
+  padding-left: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.cont {
+  text-align: left;
+  background-color: purple;
+  border-radius: 25px;
+  box-shadow: 2px 2px 10px black;
+  color: white;
+  padding: 20px;
+  margin-left: 20%;
+  margin-right: 40%;
+}
+
+.cuadro {
+    color: black;
+    text-align: center;
+    background-color: white;
+    border-radius: 25px;
+    padding: 20px;
+    margin: auto;
+
+}
+
+.cent{
+    margin: auto;
+    width: 20%;
+}
+
+input {
+  color:black;
+}
+
+#input-id{
+    color: black;
+    height: 38px;
+    width: 100%;
+}
+
+.t1 tbody tr td input{
+    color: black;
+    height: 30px;
+    width: 90%;
+    margin-left: 10px;
+    margin-bottom: 6px;
+}
+
+.cuadro input{
+    color: black;
+    height: 30px;
+    width: 90%;
+    margin-left: 10px;
+    margin-bottom: 6px;
+}
+
+#divEscuela label, .cuadro label{
+    font-size: 25px;
+    align-content: center;
+    text-align: center;
+    font-weight: bolder;
+    width: 400px;
+    word-break: keep-all;
+}
+
+.t1 tbody tr td label{
+    font-size: 25px;
+    align-content: center;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.t1{
+    margin-left: 10%;
+    width: 80%;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 25px;
+    font-weight: bolder;
+    line-height: 3;
+    text-align: center;
+}
+
+input::-webkit-input-value {
+    font-size: 30px;
+    line-height: 3;
+}
+
+aaa{
+    display: left;
+}
