@@ -1,3 +1,43 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  align-content: center;
+  text-align: center;
+  min-height: 100%;
+  color:grey;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+img {
+  max-width: 500px;
+  height: auto;
+}
+
+.link-ulacit {
+  padding-left: 5%;
+  padding-top: 1%;
+  float: left;
+  color: white;
+}
+
+.link-titulo {
+  padding-top: 1%;
+  padding-right: 5%;
+  color: white;
+  float: right;
+}
+
+.titulo {
+  color: black;
+  text-shadow: 1px 1px 5px gray;
+}
+
 .button {
   display: flex;
   text-align-last: center;
@@ -9,7 +49,7 @@
   color: white;
   font-style: normal;
   font-weight: bolder;
-  font-size: 35px;
+  font-size: 3vw;
   border-radius: 25px;
   text-align: center;
   align-items: center;
@@ -18,14 +58,12 @@
 }
 
 .busca_boton {
-    background-color: green;
-    border-radius: 25px;
-    box-shadow: 2px 2px 10px black;
-    color: white;
-    padding: 20px;
-    width: 100%;
-    font-size: 25px;
-    font-weight: bolder;
+  background-color: purple;
+  border-radius: 25px;
+  box-shadow: 2px 2px 10px black;
+  color: white;
+  padding: 20px;
+  margin: 2rem;
 }
 
 .fiscal_boton {
@@ -46,8 +84,9 @@
   background-color: purple;
   border-radius: 25px;
   box-shadow: 2px 2px 10px black;
-  color: white;
+  color: black;
   padding: 20px;
+  margin: 2rem;
 }
 
 .contenedor {
@@ -59,6 +98,19 @@
   padding: 20px;
   margin-left: 10%;
   margin-right: 10%;
+}
+
+.input:text {
+  color:black;
+}
+
+
+.link_home {
+  float: left;
+  color: white;
+  padding-left: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 .cont {
@@ -79,7 +131,7 @@
     border-radius: 25px;
     padding: 20px;
     margin: auto;
-    
+
 }
 
 .cent{
@@ -149,4 +201,3 @@ input::-webkit-input-value {
 aaa{
     display: left;
 }
-
