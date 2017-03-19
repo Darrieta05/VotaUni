@@ -1,12 +1,12 @@
 <div class="row">
   <div class="col-md-4 col-sm-9 col-sm-offset-1 col-md-offset-2 ">
     <div class="busca_cedula">
-      <input id="input-id" type="text" placeholder="Cedula" name="cedula-texto" />
+      <input [(ngModel)]="cedula.id" id="input-id" type="text" placeholder="Cedula" name="cedula-texto" />
     </div>
   </div>
 </div>
 <div class="row">
   <div class="col-md-4 col-sm-9">
-    <input type="button" value="Buscar" class="busca_boton" />
+    <button (click)="buscacedula()" type="button" name="button"></button>>
   </div>
 </div>

@@ -1,3 +1,3 @@
 export class Cedula {
-  cedula: string;
+  id = 116610401;
 }

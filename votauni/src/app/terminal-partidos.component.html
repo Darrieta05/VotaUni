@@ -1,53 +1,19 @@
-<div class="cont">
-  <div class="row">
-    <table class="t1">
-      <tbody>
-        <tr>
-          <td class="lbl">
-            <label for="nobre">Nombre</label>
-          </td>
-          <td>
-            <input name="nombre" type="text" />
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</div>
-<!--------------------------------------------------------------------------------------->
-<!-- Hay que modificar el action-->
 <form action="#" method="post">
-  <div class="contenedor">
+  <div *ngFor="let escuela of estudiante.escuela" class="contenedor">
     <div class="row">
 
       <div id="divEscuela">
-        <label>Escuela</label>
+        <label>{{escuelas.nombre}}</label>
         <!--este label se tiene que cambiar por el nombre de la escuela-->
       </div>
 
       <!--Este div se multiplia dependiendo de cuantos partidos hayan-->
-      <div class="cuadro col-md-6">
-        <label>Nombresssssss ssssssssssssss sssssssssssss aaaaaaaaaa</label>
+      <div *ngFor="let partido of escuela.partido" class="cuadro col-md-6">
+        <label>{{partido.nombre}}</label>
+        <label>{{partido.presidente}}</label>
         <br/>
-        <img src="imgs/f1.jpg" width="300px" height="300px" />
+        <img src={{partido.photo}} width="300px" height="300px" />
         <input type="radio" name="voto" value="1" />
       </div>
-
-      <div class="cuadro col-md-6">
-        <label>Nombre</label>
-        <br/>
-        <img src="imgs/f1.jpg" width="300px" height="300px" />
-        <input type="radio" name="voto" value="1" />
-      </div>
-
-
     </div>
   </div>
-
-  <div class="row">
-    <div>
-      <input type="submit" value="Enviar" class="fiscal_boton" />
-      <!--No se si se tendra que hacer cambios en el submit-->
-    </div>
-  </div>
-</form>

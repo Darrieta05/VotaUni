@@ -1,4 +1,7 @@
-import {Component} from '@angular/core';
+import {Component, Input} from '@angular/core';
+
+import { EstudianteService } from './estudiante.service';
+
 
 
 @Component({
@@ -9,4 +12,23 @@ import {Component} from '@angular/core';
 export class CambioFiscalComponent {
   title = 'CambioFiscal- Vota Uni ULACIT';
 
+  @Input()
+  entrante: string;
+
+  @Input()
+  saliente: string;
+
+  constructor(private estudianteService: EstudianteService) {}
+
+  fiscales = [
+    this.entrante,
+    this.saliente
+  ];
+
+  jsonres = JSON.stringify(this.fiscales);
+
+  cambiofiscal(): void{
+    this.estudianteService.send("cambiofiscal", this.jsonres)
+    console.log("entrante: " + this.entrante + ", saliente: " + this.saliente);
+  }
 }

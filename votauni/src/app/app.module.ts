@@ -11,6 +11,7 @@ import { HabilitarVotoComponent } from './habilitar-voto.component';
 import { IndexFiscalComponent } from './index-fiscal.component';
 import { TerminalPartidosComponent } from './terminal-partidos.component';
 import { VotoCedulaComponent } from './voto-cedula.component';
+import { EstudianteService } from './estudiante.service';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,7 @@ import { VotoCedulaComponent } from './voto-cedula.component';
     HttpModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [ EstudianteService],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }

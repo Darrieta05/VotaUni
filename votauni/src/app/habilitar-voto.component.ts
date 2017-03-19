@@ -17,10 +17,12 @@ import 'rxjs/add/operator/switchMap';
 export class HabilitarVotoComponent {
   estudiante: Estudiante;
 
+  id = '116610401';
+
   @Input()
   cedula: Cedula;
 
-  search( terms: string): void {
-    
-  }
+  // buscacedula( terms: string): void {
+  //   this.estudiante.id = this.cedula.cedula;
+  // }
 }

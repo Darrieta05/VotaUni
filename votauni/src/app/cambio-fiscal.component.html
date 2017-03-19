@@ -4,11 +4,10 @@
       <tbody>
         <tr>
           <td class="lbl">
-            <label for="entraFis">
-                                Fiscal Entrante</label>
+            <label for="entraFis">Fiscal Entrante</label>
           </td>
           <td>
-            <input name="entraFis" type="text" />
+            <input [(ngModel)]="entrante" name="entraFis" type="text" />
           </td>
         </tr>
       </tbody>
@@ -21,20 +20,18 @@
       <tbody>
         <tr>
           <td class="lbl">
-            <label for="saleFis">
-                                Fiscal Saliente</label>
+            <label for="saleFis">Fiscal Saliente</label>
           </td>
           <td>
-            <input name="saleFis" type="text" />
+            <input [(ngModel)]="saliente" name="saleFis" type="text" />
           </td>
         </tr>
       </tbody>
     </table>
   </div>
 </div>
-<!--------------------------------------------------------------------------------------->
 <div class="row">
   <div>
-    <input type="button" value="Cambiar Fiscal" class="fiscal_boton" />
+    <input (click)="cambiofiscal()" type="button" value="Cambiar Fiscal" class="fiscal_boton" />
   </div>
 </div>
