@@ -1,0 +1,22 @@
+{
+  "name": "votauni",
+  "version": "1.0.0",
+  "description": "Front-end for University voting app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darrieta05/VotaUni.git"
+  },
+  "keywords": [
+    "vota"
+  ],
+  "author": "Darrieta05",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Darrieta05/VotaUni/issues"
+  },
+  "homepage": "https://github.com/Darrieta05/VotaUni#readme"
+}
