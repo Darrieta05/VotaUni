@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vota Uni- Proyecto tech Club</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="estilos.css" rel="stylesheet">
+    <link href="estilos2.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/script_voto.js"></script>
+</head>
+<body>
+    <div class="topbar"> </div>
+    <h1 class="titulo">VOTA ULACIT DEMO</h1>
+    <img src="http://www.cpic.or.cr/wp-content/uploads/logo_ulacit.jpg" alt="Universidad Latinoamericana de Ciencia y Tecnología">
+    <!--------------------------------------------------------------------------------------->
+    <div class="cont">
+        <div class="row">
+            <table class="t1">
+                <tbody>
+                    <tr>
+                        <td class="lbl">
+                            <label for="nombre">Nombre</label>
+                        </td>
+                        <td>
+                            <label name="nombre" type="text" id="label_nombre"> </label>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+<!--------------------------------------------------------------------------------------->
+    <!-- Hay que modificar el action-->
+    <div id="contenedor_papeletas">
+    <form action="#" method="post" id="papeleta0">
+        <div class="contenedor">
+            <div class="row">
+
+                <div >
+                    <label id=Nombre_Escuela>Escuela</label>
+                    <!--este label se tiene que cambiar por el nombre de la escuela-->
+                </div>
+
+                <!--Este div se multiplia dependiendo de cuantos partidos hayan-->
+                <div class="cuadro col-md-6" >
+                    <label id="NombrePartido01"></label>
+                    <br/>
+                    <img src="imgs/f1.jpg" width="300px" height="300px"/>
+                    <input type="radio" name="partido" id="btn_radio01"/>
+                </div>
+
+                <div class="cuadro col-md-6" >
+                    <label id="NombrePartido02"></label>
+                    <br/>
+                    <img src="imgs/f1.jpg" width="300px" height="300px"/>
+                    <input type="radio" name="partido" id="btn_radio02"/>
+                </div>
+
+
+            </div>
+        </div>
+
+      
+    </form>
+
+    <div>
+            <input type="button" value="Enviar" class="fiscal_boton" id="btn_votoFinal" />
+    </div>
+      </div>
+    <!--------------------------------------------------------------------------------------->
+    <div class="footer">
+        <a class="link-ulacit" href="http://www.ulacit.ac.cr">Universidad Latinoamericana de
+            Ciencia y Tecnología</a> <a href="/" class="link-titulo">Vota_Ulacit - Tech Club Ulacit</a>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+</body>
+</html>
